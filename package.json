@@ -1,13 +1,13 @@
 {
   "name": "zy-pc-ui",
   "description": "A Vue.js project",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "zhyc <731692254@qq.com>",
   "license": "MIT",
   "main": "dist/button.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yucccc/vue-pay-keyboard"
+    "url": "https://github.com/zhyc18123/zy-pc-ui.git"
   },
   "private": false,
   "scripts": {
