@@ -1,7 +1,7 @@
 {
   "name": "zy-validate",
   "description": "验证form表单插件",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "author": "zhyc <731692254@qq.com>",
   "license": "MIT",
   "main": "dist/zy-validate.js",

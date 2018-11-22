@@ -5,7 +5,7 @@
 # 安装和引入
 npm install zy-validate
 在main.js引入
-import validate from 'zy-validate'
+import validate from 'zy-validate/dist/zy-validate.js'
 Vue.use(validate)
 
 # 参数说明

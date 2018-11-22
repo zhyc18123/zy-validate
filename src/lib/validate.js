@@ -149,13 +149,3 @@ const integerZero=(value)=>{
             callback();
         }
     }
-    export default {
-        isvalidateMoney,
-        isvalidateQQ,
-        isvalidateMobile,
-        isvalidateEmail,
-        isvalidateIDCard,
-        isvalidateRegexn,
-        isvalidateInteger,
-        isvalidateIntegerZero
-    }

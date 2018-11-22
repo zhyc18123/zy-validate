@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import zyPcUi from 'zy-pc-ui'
+import zyPcUi from './lib/index'
+console.log(zyPcUi)
 Vue.use(zyPcUi)
 new Vue({
   el: '#app',
