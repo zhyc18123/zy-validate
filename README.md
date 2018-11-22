@@ -8,6 +8,15 @@
         import validate from 'zy-validate/dist/zy-validate.js'
         Vue.use(validate)
 
+# 使用举例
+        验证是手机号码
+        在data定义属性rules：
+            rules: {
+                name: [
+                    { required: true, message: '请输入姓名', trigger: 'blur' }
+                ],
+                phoneNo: this.filterRules({required:true,type:'mobile'})
+            }
 # 参数说明
          * 参数 item 
          * required true  必填项
