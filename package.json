@@ -1,10 +1,10 @@
 {
   "name": "zy-pc-ui",
   "description": "A Vue.js project",
-  "version": "1.0.2",
+  "version": "1.0.14",
   "author": "zhyc <731692254@qq.com>",
   "license": "MIT",
-  "main": "dist/button.js",
+  "main": "dist/zy-pc-ui.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/zhyc18123/zy-pc-ui.git"

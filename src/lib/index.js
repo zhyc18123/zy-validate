@@ -1,8 +1,33 @@
 
-import button from './button.vue' // 导入组件
-const zyPcUi = {
-    install (Vue, options) {
-        Vue.component(button.name, button)
-    }
+import Button from './Button.vue' // 导入组件
+import Header from './Header.vue'
+
+const components = [
+    Button,
+    Header
+]
+
+const install = function (Vue, opts = {}) {
+    components.map(component => {
+        Vue.component(component.name, component);
+    });
+};
+
+/* istanbul ignore if */
+if (typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
 }
-export default zyPcUi // 导出..
+components.map(component => {
+    component.install = function (Vue) {
+        Vue.component(component.name, component);
+    };
+});
+export default {
+    install,
+    Button,
+    Header
+}
+export {
+    Button,
+    Header
+}
