@@ -1,13 +1,13 @@
 {
-  "name": "zy-pc-ui",
-  "description": "A Vue.js project",
-  "version": "1.0.14",
+  "name": "zy-validate",
+  "description": "验证form表单插件",
+  "version": "1.0.1",
   "author": "zhyc <731692254@qq.com>",
   "license": "MIT",
-  "main": "dist/zy-pc-ui.js",
+  "main": "dist/zy-validate.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhyc18123/zy-pc-ui.git"
+    "url": "https://github.com/zhyc18123/zy-validate.git"
   },
   "private": false,
   "scripts": {
